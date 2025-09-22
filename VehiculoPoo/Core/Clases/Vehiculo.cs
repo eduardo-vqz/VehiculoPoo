@@ -14,21 +14,41 @@ namespace VehiculoPoo.Core.Clases
         private ModoMovimiento modoMovimiento = ModoMovimiento.Estacionado;
         private double odometroTotalKm = 0;
 
+        //Encapsulamiento de los atributos privados
         public EstadoCarro GetEstadoCarro() { return estadoCarro; }
+        public void SetEstadoCarro(EstadoCarro paEstadoCarro) 
+        { 
+            estadoCarro = paEstadoCarro; 
+        }
 
         public EstadoMotor GetEstadoMotor() { return estadoMotor; }
+        public void SetEstadoMotor(EstadoMotor paEstadoMotor)
+        {
+            estadoMotor = paEstadoMotor;
+        }
 
         public ModoMovimiento GetModoMovimiento() { return modoMovimiento; }
+        public void SetModoMovimiento(ModoMovimiento paModoMovimiento)
+        {
+            modoMovimiento = paModoMovimiento;
+        }
 
         public double GetOdometroTotalKm() { return odometroTotalKm; }
 
-        public abstract void Encender();
-        public abstract void Apagar();
-        public abstract void ArrancarMotor();
-        public abstract void ApagarMotor();
-        public abstract void Avanzar(double paKm);
-        public abstract void Retroceder(double paKm);
-        public abstract void Detener();
+        public void SetOdometroTotalKm(double paSetOdometroTotalKm)
+        {
+            odometroTotalKm = paSetOdometroTotalKm;
+        }
+
+        //Metodos a utilizar
+
+        public abstract string Encender();
+        public abstract string Apagar();
+        public abstract string ArrancarMotor();
+        public abstract string ApagarMotor();
+        public abstract string Avanzar(double paKm);
+        public abstract string Retroceder(double paKm);
+        public abstract string Detener();
 
     }
 }

@@ -3,28 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\mirna\\Documents\\ITCA-FEPADE-MEGATEC\\Desarrollo de Aplicaciones de Desarrollo\\Ejemplos\\Semana07\\VehiculoPoo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{726E459D-21FD-4690-8EAC-60A397D1E829}|VehiculoPoo\\VehiculoPoo.csproj|c:\\users\\mirna\\documents\\itca-fepade-megatec\\desarrollo de aplicaciones de desarrollo\\ejemplos\\semana07\\vehiculopoo\\vehiculopoo\\core\\clases\\vehiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{726E459D-21FD-4690-8EAC-60A397D1E829}|VehiculoPoo\\VehiculoPoo.csproj|solutionrelative:vehiculopoo\\core\\clases\\vehiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{726E459D-21FD-4690-8EAC-60A397D1E829}|VehiculoPoo\\VehiculoPoo.csproj|c:\\users\\mirna\\documents\\itca-fepade-megatec\\desarrollo de aplicaciones de desarrollo\\ejemplos\\semana07\\vehiculopoo\\vehiculopoo\\core\\clases\\carro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{726E459D-21FD-4690-8EAC-60A397D1E829}|VehiculoPoo\\VehiculoPoo.csproj|solutionrelative:vehiculopoo\\core\\clases\\carro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{726E459D-21FD-4690-8EAC-60A397D1E829}|VehiculoPoo\\VehiculoPoo.csproj|c:\\users\\mirna\\documents\\itca-fepade-megatec\\desarrollo de aplicaciones de desarrollo\\ejemplos\\semana07\\vehiculopoo\\vehiculopoo\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{726E459D-21FD-4690-8EAC-60A397D1E829}|VehiculoPoo\\VehiculoPoo.csproj|solutionrelative:vehiculopoo\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{726E459D-21FD-4690-8EAC-60A397D1E829}|VehiculoPoo\\VehiculoPoo.csproj|c:\\users\\mirna\\documents\\itca-fepade-megatec\\desarrollo de aplicaciones de desarrollo\\ejemplos\\semana07\\vehiculopoo\\vehiculopoo\\core\\emuns\\estadocarro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{726E459D-21FD-4690-8EAC-60A397D1E829}|VehiculoPoo\\VehiculoPoo.csproj|solutionrelative:vehiculopoo\\core\\emuns\\estadocarro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{726E459D-21FD-4690-8EAC-60A397D1E829}|VehiculoPoo\\VehiculoPoo.csproj|c:\\users\\mirna\\documents\\itca-fepade-megatec\\desarrollo de aplicaciones de desarrollo\\ejemplos\\semana07\\vehiculopoo\\vehiculopoo\\core\\emuns\\modomovimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{726E459D-21FD-4690-8EAC-60A397D1E829}|VehiculoPoo\\VehiculoPoo.csproj|solutionrelative:vehiculopoo\\core\\emuns\\modomovimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{726E459D-21FD-4690-8EAC-60A397D1E829}|VehiculoPoo\\VehiculoPoo.csproj|c:\\users\\mirna\\documents\\itca-fepade-megatec\\desarrollo de aplicaciones de desarrollo\\ejemplos\\semana07\\vehiculopoo\\vehiculopoo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{726E459D-21FD-4690-8EAC-60A397D1E829}|VehiculoPoo\\VehiculoPoo.csproj|C:\\Users\\mirna\\Documents\\ITCA-FEPADE-MEGATEC\\Desarrollo de Aplicaciones de Desarrollo\\Ejemplos\\Semana07\\VehiculoPoo\\vehiculopoo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{726E459D-21FD-4690-8EAC-60A397D1E829}|VehiculoPoo\\VehiculoPoo.csproj|solutionrelative:vehiculopoo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{726E459D-21FD-4690-8EAC-60A397D1E829}|VehiculoPoo\\VehiculoPoo.csproj|c:\\users\\mirna\\documents\\itca-fepade-megatec\\desarrollo de aplicaciones de desarrollo\\ejemplos\\semana07\\vehiculopoo\\vehiculopoo\\core\\clases\\vehiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{726E459D-21FD-4690-8EAC-60A397D1E829}|VehiculoPoo\\VehiculoPoo.csproj|solutionrelative:vehiculopoo\\core\\clases\\vehiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{726E459D-21FD-4690-8EAC-60A397D1E829}|VehiculoPoo\\VehiculoPoo.csproj|c:\\users\\mirna\\documents\\itca-fepade-megatec\\desarrollo de aplicaciones de desarrollo\\ejemplos\\semana07\\vehiculopoo\\vehiculopoo\\core\\emuns\\estadocarro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{726E459D-21FD-4690-8EAC-60A397D1E829}|VehiculoPoo\\VehiculoPoo.csproj|solutionrelative:vehiculopoo\\core\\emuns\\estadocarro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{726E459D-21FD-4690-8EAC-60A397D1E829}|VehiculoPoo\\VehiculoPoo.csproj|c:\\users\\mirna\\documents\\itca-fepade-megatec\\desarrollo de aplicaciones de desarrollo\\ejemplos\\semana07\\vehiculopoo\\vehiculopoo\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{726E459D-21FD-4690-8EAC-60A397D1E829}|VehiculoPoo\\VehiculoPoo.csproj|solutionrelative:vehiculopoo\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{726E459D-21FD-4690-8EAC-60A397D1E829}|VehiculoPoo\\VehiculoPoo.csproj|c:\\users\\mirna\\documents\\itca-fepade-megatec\\desarrollo de aplicaciones de desarrollo\\ejemplos\\semana07\\vehiculopoo\\vehiculopoo\\core\\emuns\\estadomotor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
@@ -54,38 +54,37 @@
               "RelativeToolTip": "VehiculoPoo\\Core\\Emuns\\EstadoMotor.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T14:26:05.334Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-22T14:26:05.334Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Carro.cs",
               "DocumentMoniker": "C:\\Users\\mirna\\Documents\\ITCA-FEPADE-MEGATEC\\Desarrollo de Aplicaciones de Desarrollo\\Ejemplos\\Semana07\\VehiculoPoo\\VehiculoPoo\\Core\\Clases\\Carro.cs",
               "RelativeDocumentMoniker": "VehiculoPoo\\Core\\Clases\\Carro.cs",
               "ToolTip": "C:\\Users\\mirna\\Documents\\ITCA-FEPADE-MEGATEC\\Desarrollo de Aplicaciones de Desarrollo\\Ejemplos\\Semana07\\VehiculoPoo\\VehiculoPoo\\Core\\Clases\\Carro.cs",
               "RelativeToolTip": "VehiculoPoo\\Core\\Clases\\Carro.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwDMAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-22T14:25:07.024Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Vehiculo.cs",
               "DocumentMoniker": "C:\\Users\\mirna\\Documents\\ITCA-FEPADE-MEGATEC\\Desarrollo de Aplicaciones de Desarrollo\\Ejemplos\\Semana07\\VehiculoPoo\\VehiculoPoo\\Core\\Clases\\Vehiculo.cs",
               "RelativeDocumentMoniker": "VehiculoPoo\\Core\\Clases\\Vehiculo.cs",
               "ToolTip": "C:\\Users\\mirna\\Documents\\ITCA-FEPADE-MEGATEC\\Desarrollo de Aplicaciones de Desarrollo\\Ejemplos\\Semana07\\VehiculoPoo\\VehiculoPoo\\Core\\Clases\\Vehiculo.cs",
               "RelativeToolTip": "VehiculoPoo\\Core\\Clases\\Vehiculo.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAA1wCIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-22T14:24:52.406Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "Form1.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\mirna\\Documents\\ITCA-FEPADE-MEGATEC\\Desarrollo de Aplicaciones de Desarrollo\\Ejemplos\\Semana07\\VehiculoPoo\\VehiculoPoo\\Form1.cs",
               "RelativeDocumentMoniker": "VehiculoPoo\\Form1.cs",
@@ -97,7 +96,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "ModoMovimiento.cs",
               "DocumentMoniker": "C:\\Users\\mirna\\Documents\\ITCA-FEPADE-MEGATEC\\Desarrollo de Aplicaciones de Desarrollo\\Ejemplos\\Semana07\\VehiculoPoo\\VehiculoPoo\\Core\\Emuns\\ModoMovimiento.cs",
               "RelativeDocumentMoniker": "VehiculoPoo\\Core\\Emuns\\ModoMovimiento.cs",
@@ -110,7 +109,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "EstadoCarro.cs",
               "DocumentMoniker": "C:\\Users\\mirna\\Documents\\ITCA-FEPADE-MEGATEC\\Desarrollo de Aplicaciones de Desarrollo\\Ejemplos\\Semana07\\VehiculoPoo\\VehiculoPoo\\Core\\Emuns\\EstadoCarro.cs",
               "RelativeDocumentMoniker": "VehiculoPoo\\Core\\Emuns\\EstadoCarro.cs",
@@ -123,7 +122,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Form1.Designer.cs",
               "DocumentMoniker": "C:\\Users\\mirna\\Documents\\ITCA-FEPADE-MEGATEC\\Desarrollo de Aplicaciones de Desarrollo\\Ejemplos\\Semana07\\VehiculoPoo\\VehiculoPoo\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "VehiculoPoo\\Form1.Designer.cs",
@@ -144,8 +143,7 @@
               "RelativeToolTip": "VehiculoPoo\\Form1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T03:18:12.423Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-22T03:18:12.423Z"
             }
           ]
         }
