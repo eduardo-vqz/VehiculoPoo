@@ -1,0 +1,16 @@
+C:\Users\mirna\Documents\ITCA-FEPADE-MEGATEC\Desarrollo de Aplicaciones de Desarrollo\Ejemplos\Semana07\VehiculoPoo\VehiculoPoo\bin\Debug\net8.0-windows\VehiculoPoo.exe
+C:\Users\mirna\Documents\ITCA-FEPADE-MEGATEC\Desarrollo de Aplicaciones de Desarrollo\Ejemplos\Semana07\VehiculoPoo\VehiculoPoo\bin\Debug\net8.0-windows\VehiculoPoo.deps.json
+C:\Users\mirna\Documents\ITCA-FEPADE-MEGATEC\Desarrollo de Aplicaciones de Desarrollo\Ejemplos\Semana07\VehiculoPoo\VehiculoPoo\bin\Debug\net8.0-windows\VehiculoPoo.runtimeconfig.json
+C:\Users\mirna\Documents\ITCA-FEPADE-MEGATEC\Desarrollo de Aplicaciones de Desarrollo\Ejemplos\Semana07\VehiculoPoo\VehiculoPoo\bin\Debug\net8.0-windows\VehiculoPoo.dll
+C:\Users\mirna\Documents\ITCA-FEPADE-MEGATEC\Desarrollo de Aplicaciones de Desarrollo\Ejemplos\Semana07\VehiculoPoo\VehiculoPoo\bin\Debug\net8.0-windows\VehiculoPoo.pdb
+C:\Users\mirna\Documents\ITCA-FEPADE-MEGATEC\Desarrollo de Aplicaciones de Desarrollo\Ejemplos\Semana07\VehiculoPoo\VehiculoPoo\obj\Debug\net8.0-windows\VehiculoPoo.csproj.GenerateResource.cache
+C:\Users\mirna\Documents\ITCA-FEPADE-MEGATEC\Desarrollo de Aplicaciones de Desarrollo\Ejemplos\Semana07\VehiculoPoo\VehiculoPoo\obj\Debug\net8.0-windows\VehiculoPoo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mirna\Documents\ITCA-FEPADE-MEGATEC\Desarrollo de Aplicaciones de Desarrollo\Ejemplos\Semana07\VehiculoPoo\VehiculoPoo\obj\Debug\net8.0-windows\VehiculoPoo.AssemblyInfoInputs.cache
+C:\Users\mirna\Documents\ITCA-FEPADE-MEGATEC\Desarrollo de Aplicaciones de Desarrollo\Ejemplos\Semana07\VehiculoPoo\VehiculoPoo\obj\Debug\net8.0-windows\VehiculoPoo.AssemblyInfo.cs
+C:\Users\mirna\Documents\ITCA-FEPADE-MEGATEC\Desarrollo de Aplicaciones de Desarrollo\Ejemplos\Semana07\VehiculoPoo\VehiculoPoo\obj\Debug\net8.0-windows\VehiculoPoo.csproj.CoreCompileInputs.cache
+C:\Users\mirna\Documents\ITCA-FEPADE-MEGATEC\Desarrollo de Aplicaciones de Desarrollo\Ejemplos\Semana07\VehiculoPoo\VehiculoPoo\obj\Debug\net8.0-windows\VehiculoPoo.dll
+C:\Users\mirna\Documents\ITCA-FEPADE-MEGATEC\Desarrollo de Aplicaciones de Desarrollo\Ejemplos\Semana07\VehiculoPoo\VehiculoPoo\obj\Debug\net8.0-windows\refint\VehiculoPoo.dll
+C:\Users\mirna\Documents\ITCA-FEPADE-MEGATEC\Desarrollo de Aplicaciones de Desarrollo\Ejemplos\Semana07\VehiculoPoo\VehiculoPoo\obj\Debug\net8.0-windows\VehiculoPoo.pdb
+C:\Users\mirna\Documents\ITCA-FEPADE-MEGATEC\Desarrollo de Aplicaciones de Desarrollo\Ejemplos\Semana07\VehiculoPoo\VehiculoPoo\obj\Debug\net8.0-windows\VehiculoPoo.genruntimeconfig.cache
+C:\Users\mirna\Documents\ITCA-FEPADE-MEGATEC\Desarrollo de Aplicaciones de Desarrollo\Ejemplos\Semana07\VehiculoPoo\VehiculoPoo\obj\Debug\net8.0-windows\ref\VehiculoPoo.dll
+C:\Users\mirna\Documents\ITCA-FEPADE-MEGATEC\Desarrollo de Aplicaciones de Desarrollo\Ejemplos\Semana07\VehiculoPoo\VehiculoPoo\obj\Debug\net8.0-windows\VehiculoPoo.frmVehiculoPoo.resources
