@@ -67,12 +67,30 @@ namespace VehiculoPoo.Core.Clases
 
         public override string ArrancarMotor()
         {
-            throw new NotImplementedException();
+            if (GetEstadoMotor() == EstadoMotor.Encendido)
+            {
+                return $"El motor no se puede encender por que ya se encuentra en estado {GetEstadoMotor()}";
+            }
+            else
+            {
+                SetEstadoMotor(EstadoMotor.Encendido);
+                return $"El motor el motor ha cambiado a estado {GetEstadoMotor()}";
+            }
+
+
+
         }
 
-        public override string Avanzar(double paKm)
+        public override string Avanzar(double paKm )
         {
-            throw new NotImplementedException();
+            if (paKm > 0)
+            {
+                double consumo = paKm * ConsumoPorKmGal;
+
+                SetOdometroTotalKm(GetOdometroTotalKm() + paKm);
+                combustibleActual -= consumo; 
+                return $"Haz avanzado {paKm}"
+            }
         }
 
         public override string Detener()
