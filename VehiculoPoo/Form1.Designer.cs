@@ -196,6 +196,7 @@
             // 
             // numKilometros
             // 
+            numKilometros.DecimalPlaces = 2;
             numKilometros.Location = new Point(96, 46);
             numKilometros.Name = "numKilometros";
             numKilometros.Size = new Size(131, 27);

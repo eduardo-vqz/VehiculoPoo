@@ -7,11 +7,11 @@ using VehiculoPoo.Core.Emuns;
 
 namespace VehiculoPoo.Core.Clases
 {
-    internal class Vehiculo
+    internal abstract class Vehiculo
     {
-        private EstadoCarro estadoCarro;
-        private EstadoMotor estadoMotor;
-        private ModoMovimiento modoMovimiento;
+        private EstadoCarro estadoCarro = EstadoCarro.Apagado;
+        private EstadoMotor estadoMotor = EstadoMotor.Apagado;
+        private ModoMovimiento modoMovimiento = ModoMovimiento.Estacionado;
         private double odometroTotalKm = 0;
 
         public EstadoCarro GetEstadoCarro() { return estadoCarro; }
@@ -22,39 +22,13 @@ namespace VehiculoPoo.Core.Clases
 
         public double GetOdometroTotalKm() { return odometroTotalKm; }
 
-        public void Encender()
-        {
-
-        }
-        public void Apagar()
-        {
-
-        }
-        public void ArrancarMotor()
-        {
-
-        }
-        public void ApagarMotor()
-        {
-
-        }
-
-
-
-        public void Avanzar(double paKm)
-        {
-
-        }
-
-        public void Retroceder(double paKm)
-        {
-
-        }
-
-        public void Detener()
-        {
-
-        }
+        public abstract void Encender();
+        public abstract void Apagar();
+        public abstract void ArrancarMotor();
+        public abstract void ApagarMotor();
+        public abstract void Avanzar(double paKm);
+        public abstract void Retroceder(double paKm);
+        public abstract void Detener();
 
     }
 }
