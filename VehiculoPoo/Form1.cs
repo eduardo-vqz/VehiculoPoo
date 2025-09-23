@@ -5,6 +5,7 @@ namespace VehiculoPoo
 {
     public partial class frmVehiculoPoo : Form
     {
+
         Carro carro = new Carro(32);
         public frmVehiculoPoo()
         {
@@ -61,6 +62,46 @@ namespace VehiculoPoo
                 lbxResuldo.Items.Add(carro.ApagarMotor().ToString());
                 chkEncendidoApagadoMotor.Text = carro.GetEstadoMotor().ToString();
             }
+        }
+
+        private void btnMover_Click(object sender, EventArgs e)
+        {
+            if (cbxMovimiento.SelectedIndex == -1)
+            {
+                MessageBox.Show("Debe seleccionar una opción de movimiento");
+                return;
+            }
+
+            var movimiento = (ModoMovimiento)cbxMovimiento.SelectedItem;
+
+            switch (movimiento)
+            {
+                case ModoMovimiento.Estacionado:
+                    
+                    lbxResuldo.Items.Add(carro.Detener());
+                    break;
+                case ModoMovimiento.Adelante:
+                    lbxResuldo.Items.Add($"{carro.Avanzar(double.Parse(numKilometros.Value.ToString()))}");
+                    lbxResuldo.Items.Add($"El vehiculo ha cambiado a estado de {carro.GetModoMovimiento()}");
+                    pgbEstadoCombustible.Value = (int)Math.Ceiling(carro.GetCombustibleActual());
+
+                    break;
+                case ModoMovimiento.Retroceso:
+                    lbxResuldo.Items.Add($"{carro.Retroceder(double.Parse(numKilometros.Value.ToString()))}");
+                    lbxResuldo.Items.Add($"El vehiculo ha cambiado a estado de {carro.GetModoMovimiento()}");
+                    pgbEstadoCombustible.Value = (int)Math.Ceiling(carro.GetCombustibleActual());
+
+                    break;
+
+            }
+
+
+        }
+
+        private void btnLlenarTanqueCombustible_Click(object sender, EventArgs e)
+        {
+            lbxResuldo.Items.Add( carro.LlenarTanque(32));
+            pgbEstadoCombustible.Value = (int)Math.Ceiling(carro.GetCombustibleActual());
         }
     }
 }

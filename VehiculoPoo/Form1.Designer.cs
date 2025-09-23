@@ -187,6 +187,7 @@
             btnMover.TabIndex = 10;
             btnMover.Text = "Estacionar";
             btnMover.UseVisualStyleBackColor = true;
+            btnMover.Click += btnMover_Click;
             // 
             // label4
             // 
@@ -201,6 +202,7 @@
             // 
             numKilometros.DecimalPlaces = 2;
             numKilometros.Location = new Point(96, 46);
+            numKilometros.Maximum = new decimal(new int[] { 1000, 0, 0, 0 });
             numKilometros.Name = "numKilometros";
             numKilometros.Size = new Size(131, 27);
             numKilometros.TabIndex = 8;
@@ -227,12 +229,14 @@
             btnLlenarTanqueCombustible.TabIndex = 9;
             btnLlenarTanqueCombustible.Text = "Cargar Tanque Combustible";
             btnLlenarTanqueCombustible.UseVisualStyleBackColor = true;
+            btnLlenarTanqueCombustible.Click += btnLlenarTanqueCombustible_Click;
             // 
             // lbxResuldo
             // 
             lbxResuldo.FormattingEnabled = true;
             lbxResuldo.Location = new Point(279, 185);
             lbxResuldo.Name = "lbxResuldo";
+            lbxResuldo.ScrollAlwaysVisible = true;
             lbxResuldo.Size = new Size(381, 204);
             lbxResuldo.TabIndex = 12;
             // 

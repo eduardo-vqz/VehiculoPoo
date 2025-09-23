@@ -9,6 +9,7 @@ namespace VehiculoPoo.Core.Clases
 {
     internal class Carro : Vehiculo
     {
+        // Atributos
         public const double CapacidadTanqueGal = 32.0;
         public const double ConsumoPorKmGal = 0.32;
 
@@ -88,9 +89,12 @@ namespace VehiculoPoo.Core.Clases
                 double consumo = paKm * ConsumoPorKmGal;
 
                 SetOdometroTotalKm(GetOdometroTotalKm() + paKm);
-                combustibleActual -= consumo;
+                SetModoMovimiento(ModoMovimiento.Adelante);
+                combustibleActual -= consumo; 
+
                 string mensaje = $"Haz avanzado {paKm:0.00} K.M. ";
                 mensaje += $"\nHaz consumido {consumo:0.00} Gal. de gasolina";
+                mensaje += $"\nOdometro {GetOdometroTotalKm():0.00} . ";
                 return mensaje;
             }
             return "Los kilometros para avanzar tienen mayores a cero";
@@ -100,10 +104,7 @@ namespace VehiculoPoo.Core.Clases
         {
             string mensaje = "";
             if (GetModoMovimiento() == ModoMovimiento.Estacionado)
-            {
-                SetEstadoMotor(EstadoMotor.Apagado);
-                mensaje = $"El motor ha cambiado a estado de {GetEstadoMotor()}";
-            }
+                mensaje = $"El vehiculo ya se encuyentra detenido";
 
             if (GetEstadoMotor() == EstadoMotor.Apagado)
             {
@@ -112,7 +113,13 @@ namespace VehiculoPoo.Core.Clases
 
             if (GetModoMovimiento() != ModoMovimiento.Estacionado)
             {
-                mensaje = $"El motor no se puede detener porque el vechiculo se encuentra en movimiento";
+                
+                    SetModoMovimiento(ModoMovimiento.Estacionado);
+                    SetEstadoMotor(EstadoMotor.Apagado);
+
+                    mensaje = $"El motor ha cambiado a estado de {GetEstadoMotor()}";
+                    mensaje = $"\nEl vehiculo se encuentra {GetModoMovimiento()}";
+                
             }
             
             return mensaje;
@@ -137,6 +144,7 @@ namespace VehiculoPoo.Core.Clases
                 combustibleActual -= consumo;
                 string mensaje = $"Haz retrocedido {paKm:0.00} K.M. ";
                 mensaje += $"\nHaz consumido {consumo:0.00} Gal. de gasolina";
+                mensaje += $"\nOdometro {GetOdometroTotalKm():0.00} . ";
                 return mensaje;
             }
             return "Los kilometros para retroceder tienen mayores a cero";
