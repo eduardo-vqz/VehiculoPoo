@@ -52,7 +52,7 @@ namespace VehiculoPoo.Core.Clases
                 return "El vehiculo debe estar no debe de estar en movimiento y con el motor apago para apagarse"; 
             }
             SetEstadoCarro(EstadoCarro.Apagado);
-            return $"El vehiculo se encuentra en estado {GetEstadoCarro}";
+            return $"El vehiculo se encuentra en estado {GetEstadoCarro()}";
         }
 
         public override string ApagarMotor()
@@ -124,7 +124,7 @@ namespace VehiculoPoo.Core.Clases
                 return "El vehiculo ya se encuentra encendido, no se puede enceder nuevamente";
 
             SetEstadoCarro(EstadoCarro.Encendido);
-            return $"El vehiculo ha cambiado su estado ha {GetEstadoCarro()}";
+            return $"El vehiculo ha cambiado su estado a {GetEstadoCarro()}";
         }
 
         public override string Retroceder(double paKm)

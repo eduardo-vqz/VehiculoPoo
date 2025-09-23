@@ -32,8 +32,8 @@
             label1 = new Label();
             label2 = new Label();
             label3 = new Label();
-            chkEncender = new CheckBox();
-            chkEstadoMotor = new CheckBox();
+            chkEncenderApagarVehiculo = new CheckBox();
+            chkEncendidoApagadoMotor = new CheckBox();
             groupBox1 = new GroupBox();
             label6 = new Label();
             label5 = new Label();
@@ -55,8 +55,10 @@
             // pgbEstadoCombustible
             // 
             pgbEstadoCombustible.Location = new Point(29, 56);
+            pgbEstadoCombustible.Maximum = 32;
             pgbEstadoCombustible.Name = "pgbEstadoCombustible";
             pgbEstadoCombustible.Size = new Size(323, 33);
+            pgbEstadoCombustible.Style = ProgressBarStyle.Continuous;
             pgbEstadoCombustible.TabIndex = 0;
             // 
             // label1
@@ -90,36 +92,37 @@
             label3.TabIndex = 3;
             label3.Text = "E";
             // 
-            // chkEncender
+            // chkEncenderApagarVehiculo
             // 
-            chkEncender.Appearance = Appearance.Button;
-            chkEncender.AutoSize = true;
-            chkEncender.Location = new Point(126, 43);
-            chkEncender.Name = "chkEncender";
-            chkEncender.Size = new Size(80, 30);
-            chkEncender.TabIndex = 4;
-            chkEncender.Text = "Encender";
-            chkEncender.UseVisualStyleBackColor = true;
-            chkEncender.CheckedChanged += cbxEncender_CheckedChanged;
+            chkEncenderApagarVehiculo.Appearance = Appearance.Button;
+            chkEncenderApagarVehiculo.AutoSize = true;
+            chkEncenderApagarVehiculo.Location = new Point(126, 43);
+            chkEncenderApagarVehiculo.Name = "chkEncenderApagarVehiculo";
+            chkEncenderApagarVehiculo.Size = new Size(80, 30);
+            chkEncenderApagarVehiculo.TabIndex = 4;
+            chkEncenderApagarVehiculo.Text = "Encender";
+            chkEncenderApagarVehiculo.UseVisualStyleBackColor = true;
+            chkEncenderApagarVehiculo.CheckedChanged += cbxEncender_CheckedChanged;
             // 
-            // chkEstadoMotor
+            // chkEncendidoApagadoMotor
             // 
-            chkEstadoMotor.Appearance = Appearance.Button;
-            chkEstadoMotor.AutoSize = true;
-            chkEstadoMotor.Location = new Point(125, 95);
-            chkEstadoMotor.Name = "chkEstadoMotor";
-            chkEstadoMotor.Size = new Size(81, 30);
-            chkEstadoMotor.TabIndex = 5;
-            chkEstadoMotor.Text = "Apagado";
-            chkEstadoMotor.TextAlign = ContentAlignment.TopCenter;
-            chkEstadoMotor.UseVisualStyleBackColor = true;
+            chkEncendidoApagadoMotor.Appearance = Appearance.Button;
+            chkEncendidoApagadoMotor.AutoSize = true;
+            chkEncendidoApagadoMotor.Location = new Point(125, 95);
+            chkEncendidoApagadoMotor.Name = "chkEncendidoApagadoMotor";
+            chkEncendidoApagadoMotor.Size = new Size(81, 30);
+            chkEncendidoApagadoMotor.TabIndex = 5;
+            chkEncendidoApagadoMotor.Text = "Apagado";
+            chkEncendidoApagadoMotor.TextAlign = ContentAlignment.TopCenter;
+            chkEncendidoApagadoMotor.UseVisualStyleBackColor = true;
+            chkEncendidoApagadoMotor.CheckedChanged += chkEncendidoApagadoMotor_CheckedChanged;
             // 
             // groupBox1
             // 
             groupBox1.Controls.Add(label6);
             groupBox1.Controls.Add(label5);
-            groupBox1.Controls.Add(chkEncender);
-            groupBox1.Controls.Add(chkEstadoMotor);
+            groupBox1.Controls.Add(chkEncenderApagarVehiculo);
+            groupBox1.Controls.Add(chkEncendidoApagadoMotor);
             groupBox1.Location = new Point(12, 18);
             groupBox1.Name = "groupBox1";
             groupBox1.Size = new Size(233, 143);
@@ -261,8 +264,8 @@
         private Label label1;
         private Label label2;
         private Label label3;
-        private CheckBox chkEncender;
-        private CheckBox chkEstadoMotor;
+        private CheckBox chkEncenderApagarVehiculo;
+        private CheckBox chkEncendidoApagadoMotor;
         private GroupBox groupBox1;
         private GroupBox groupBox2;
         private Label label4;
