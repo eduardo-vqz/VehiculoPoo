@@ -88,24 +88,58 @@ namespace VehiculoPoo.Core.Clases
                 double consumo = paKm * ConsumoPorKmGal;
 
                 SetOdometroTotalKm(GetOdometroTotalKm() + paKm);
-                combustibleActual -= consumo; 
-                return $"Haz avanzado {paKm}"
+                combustibleActual -= consumo;
+                string mensaje = $"Haz avanzado {paKm:0.00} K.M. ";
+                mensaje += $"\nHaz consumido {consumo:0.00} Gal. de gasolina";
+                return mensaje;
             }
+            return "Los kilometros para avanzar tienen mayores a cero";
         }
 
         public override string Detener()
         {
-            throw new NotImplementedException();
+            string mensaje = "";
+            if (GetModoMovimiento() == ModoMovimiento.Estacionado)
+            {
+                SetEstadoMotor(EstadoMotor.Apagado);
+                mensaje = $"El motor ha cambiado a estado de {GetEstadoMotor()}";
+            }
+
+            if (GetEstadoMotor() == EstadoMotor.Apagado)
+            {
+                mensaje = $"El motor ya se encuentra en estado {GetEstadoMotor()}, No se puede detener";
+            }
+
+            if (GetModoMovimiento() != ModoMovimiento.Estacionado)
+            {
+                mensaje = $"El motor no se puede detener porque el vechiculo se encuentra en movimiento";
+            }
+            
+            return mensaje;
         }
 
         public override string Encender()
         {
-            throw new NotImplementedException();
+            if (GetEstadoCarro() != EstadoCarro.Apagado)
+                return "El vehiculo ya se encuentra encendido, no se puede enceder nuevamente";
+
+            SetEstadoCarro(EstadoCarro.Encendido);
+            return $"El vehiculo ha cambiado su estado ha {GetEstadoCarro()}";
         }
 
         public override string Retroceder(double paKm)
         {
-            throw new NotImplementedException();
+            if (paKm > 0)
+            {
+                double consumo = paKm * ConsumoPorKmGal;
+
+                SetOdometroTotalKm(GetOdometroTotalKm() + paKm);
+                combustibleActual -= consumo;
+                string mensaje = $"Haz retrocedido {paKm:0.00} K.M. ";
+                mensaje += $"\nHaz consumido {consumo:0.00} Gal. de gasolina";
+                return mensaje;
+            }
+            return "Los kilometros para retroceder tienen mayores a cero";
         }
     }
 }
