@@ -142,6 +142,7 @@ namespace VehiculoPoo.Core.Clases
 
                 SetOdometroTotalKm(GetOdometroTotalKm() + paKm);
                 combustibleActual -= consumo;
+                SetModoMovimiento(ModoMovimiento.Retroceso);
                 string mensaje = $"Haz retrocedido {paKm:0.00} K.M. ";
                 mensaje += $"\nHaz consumido {consumo:0.00} Gal. de gasolina";
                 mensaje += $"\nOdometro {GetOdometroTotalKm():0.00} . ";
