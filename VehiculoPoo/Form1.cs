@@ -7,6 +7,7 @@ namespace VehiculoPoo
     {
 
         Carro carro = new Carro(32);
+
         public frmVehiculoPoo()
         {
             InitializeComponent();
@@ -28,6 +29,7 @@ namespace VehiculoPoo
             chkEncendidoApagadoMotor.ThreeState = false;
             carro.SetEstadoMotor(EstadoMotor.Apagado);
             chkEncendidoApagadoMotor.Text = carro.GetEstadoMotor().ToString();
+            chkEncendidoApagadoMotor.Enabled = false;
         }
 
         private void cbxEncender_CheckedChanged(object sender, EventArgs e)
@@ -36,6 +38,7 @@ namespace VehiculoPoo
             {
                 lbxResuldo.Items.Add(carro.Encender().ToString());
                 chkEncenderApagarVehiculo.Text = carro.GetEstadoCarro().ToString();
+                chkEncendidoApagadoMotor.Enabled = true;
             }
             else
             {
@@ -92,10 +95,7 @@ namespace VehiculoPoo
                     pgbEstadoCombustible.Value = (int)Math.Ceiling(carro.GetCombustibleActual());
 
                     break;
-
             }
-
-
         }
 
         private void btnLlenarTanqueCombustible_Click(object sender, EventArgs e)

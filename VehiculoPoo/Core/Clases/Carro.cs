@@ -50,7 +50,7 @@ namespace VehiculoPoo.Core.Clases
         public override string Apagar()
         {
             if (GetModoMovimiento() != ModoMovimiento.Estacionado || GetEstadoMotor() != EstadoMotor.Apagado) {
-                return "El vehiculo debe estar no debe de estar en movimiento y con el motor apago para apagarse"; 
+                return "El vehiculo debe estar no debe de estar en movimiento y con el motor apagado para apagar el vehiculo"; 
             }
             SetEstadoCarro(EstadoCarro.Apagado);
             return $"El vehiculo se encuentra en estado {GetEstadoCarro()}";
@@ -68,6 +68,9 @@ namespace VehiculoPoo.Core.Clases
 
         public override string ArrancarMotor()
         {
+            if (GetEstadoCarro() == EstadoCarro.Apagado)
+                return $"El vechiculo se encuentra en estado {GetEstadoCarro()}, para arrancar el motor debe encender el carro primero";
+            
             if (GetEstadoMotor() == EstadoMotor.Encendido)
             {
                 return $"El motor no se puede encender por que ya se encuentra en estado {GetEstadoMotor()}";
@@ -77,9 +80,6 @@ namespace VehiculoPoo.Core.Clases
                 SetEstadoMotor(EstadoMotor.Encendido);
                 return $"El motor el motor ha cambiado a estado {GetEstadoMotor()}";
             }
-
-
-
         }
 
         public override string Avanzar(double paKm )
